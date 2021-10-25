@@ -1,0 +1,47 @@
+
+/* @media (max-width:600px){    
+   
+} */
+
+#welcome-section{
+    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #303841;
+    color: #fff;
+}
+
+#navbar{
+    position: fixed;
+    width: 100%;
+    background-color: #be3144;
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 800px){
+    /*Tablets [601px -> 1200px]*/
+}
+
+.thumbnail {
+    max-width: 400px;
+}
+
+ul {
+    list-style: none;
+}
+
+#projects {
+    background-color: #45567d;
+    padding: 25px;
+}
+
+@media only screen and (min-width: 768px){
+    .project-container {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+}
